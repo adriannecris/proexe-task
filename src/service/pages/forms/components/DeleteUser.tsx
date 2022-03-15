@@ -1,6 +1,5 @@
-import React, { Dispatch, SetStateAction, useState } from 'react'
-import { Modal, Button } from 'antd'
-import { SetState } from 'immer/dist/internal'
+import React, { Dispatch, SetStateAction } from 'react'
+import { Modal } from 'antd'
 
 export interface DeleteUserModalProps {
   isModalVisible: boolean
